@@ -27,10 +27,10 @@ spec:
     spec:
       containers:
       - name: quiz-backend
-        image: [BACKEND_IMAGE_IDENTIFIER]
+        image: gcr.io/qwiklabs-gcp-1705dbf5aab5ea1a/quiz-backend@sha256:0ac478fc032f5507dd3acc34ca958a312bec8ea337080ad1bbe88e6d840c463e
         imagePullPolicy: Always
         env:
           - name: GCLOUD_PROJECT
-            value: [GCLOUD_PROJECT]
+            value: qwiklabs-gcp-1705dbf5aab5ea1a
           - name: GCLOUD_BUCKET
-            value: [GCLOUD_BUCKET]
+            value: qwiklabs-gcp-1705dbf5aab5ea1a-media
