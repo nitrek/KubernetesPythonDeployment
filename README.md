@@ -1,4 +1,5 @@
 # training-data-analyst 
+[![HitCount](http://hits.dwyl.com/nitrek/KubernetesPythonDeployment.svg)](http://hits.dwyl.com/nitrek/KubernetesPythonDeployment)
 
 Labs and demos for Google Cloud Platform courses (http://cloud.google.com/training).
 
